@@ -5,6 +5,14 @@
 <meta charset="utf-8">
 <title>Ariana's Resume</title>
   <style>
+  td, th {
+    border: 3px solid #3f6a59;
+  }
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
 body {
   margin: 0 10%;
   font-family: sans-serif;
@@ -25,7 +33,7 @@ h2 {
   font-size: 1.5em;
 }
 h3 {
-  color: #5c8b93;
+  color: black;
   font-family: sans-serif;
 }
 footer {
@@ -68,46 +76,32 @@ footer {
   <li>Blender</li>
 </ul>
 
-<h2>Her Work</h2>
-<h3>Vector</h3>
-  <picture>
-      <source media="(min-width: 406px)"
-      srcset="samples/design/cat-1200.png 1200w,
-      samples/design/cat-800.png 800w"
-      sizes="30vw">
-<img src="samples/design/cat-400.png" alt="vector image of the head of a black cat">
-</picture>
-<picture>
-    <source media="(min-width: 400px)"
-    srcset="samples/design/ah.png 1200w,
-    samples/design/ah-800.png 800w"
-    sizes="30vw">
-<img src="samples/design/ah-400.png" alt="vector image of a AH logo">
-</picture>
-<picture>
-    <source media="(min-width: 400px)"
-    srcset="samples/design/shapes-1200.png 1200w,
-    samples/design/shapes-800.png 800w"
-    sizes="30vw">
-<img src="samples/design/shapes-400.png" alt="vector image of forest creatures and items">
-</picture>
-
-<h3>Artwork</h3>
-<picture>
-    <source media="(min-width: 400px)"
-    srcset="samples/artwork/bible-1200.png 1200w,
-    samples/artwork/bible-800.png 800w"
-    sizes="30vw">
-<img src="samples/artwork/bible-400.png" alt="artwork of a girl reading a bible, and many different texts in different languages float around">
-</picture>
-<picture>
-    <source media="(min-width: 400px)"
-    srcset="samples/artwork/guitar-1200.png 1200w,
-    samples/artwork/guitar-800.png 800w"
-    sizes="30vw">
-<img src="samples/artwork/guitar-400.png" alt="artwork of a girl reading a bible, and many different texts in different languages float around">
-</picture>
-
+<p>
+<table>
+<tr>
+<th colspan="4"><h2>Her Work</h2></th>
+</tr>
+<tr>
+  <td>
+    <h3>Vector</h3>
+  </td>
+<td>
+  <a href="samples/cat.html"><img src="samples/thumbnail/cat-thumb.png" alt="vector image of the head of a black cat">
+  <a href="samples/ah.html"><img src="samples/thumbnail/ah-thumb.png" alt="vector image of a AH logo">
+  <a href="samples/shapes.html"><img src="samples/thumbnail/shapes-thumb.png" alt="vector image of forest creatures and items">
+</td>
+</tr>
+<tr>
+<td>
+  <h3>Artwork</h3>
+</td>
+<td>
+  <a href="samples/bible.html"><img src="samples/thumbnail/bible-thumb.png" alt="artwork of a girl reading a bible, and many different texts in different languages float around">
+  <a href="samples/guitar.html"><img src="samples/thumbnail/guitar-thumb.png" alt="artwork of a girl reading a bible, and many different texts in different languages float around">
+</td>
+</tr>
+</table>
+</p>
 <footer>
 <h3>Find Her Here</h3>
 <a href="https://www.instagram.com/arilynnartwork/">Instagram</a> | <a href="https://twitter.com/ArilynnArtwork">Twitter</a> | <a href="https://github.com/arianalynnh">GitHub</a>
